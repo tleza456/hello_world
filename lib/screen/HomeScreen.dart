@@ -26,13 +26,16 @@ class _HomeScreenState extends State<HomeScreen> {
     return Container(
       child: Scaffold(
         appBar: AppBar(
-          title: Text(
-            "Home Screen"),
+          title: Text("Home Screen"),
         ),
         body: Center(
           child: Container(
-            color: Colors.cyan ,
-            child: Text("Hello Tle"))),
+            width:1500,
+            height:1500,
+            color: Colors.lightBlue,
+            child: Image.asset('assets/images/cat.png'),
+          ),
+        ),
       ),
     );
   }
