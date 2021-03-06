@@ -29,11 +29,18 @@ class _HomeScreenState extends State<HomeScreen> {
           title: Text("Home Screen"),
         ),
         body: Center(
-          child: Container(
-            width:1500,
-            height:1500,
-            color: Colors.lightBlue,
-            child: Image.asset('assets/images/cat.png'),
+          child: Column(
+            children: [
+              Container(
+                color: Colors.indigo,
+                child: Text("555555555")),
+              Container(
+                width:300,
+                height:400,
+                color: Colors.lightBlue,
+                child: Image.asset('assets/images/cat.png'),
+              ),
+            ],
           ),
         ),
       ),
